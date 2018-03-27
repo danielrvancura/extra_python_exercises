@@ -26,3 +26,9 @@
 
 
 # *** your code here ***
+x=1
+y=8
+while x<=8:
+ print((y*' ')+x*'@ ')
+ y=y-1
+ x=x+1

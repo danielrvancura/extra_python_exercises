@@ -8,3 +8,14 @@
 
 
 # *** your code here ***
+def findSingle( array, n):
+
+	res = array[0]
+
+	for i in range(1,n):
+		res = res ^ array[i]
+
+	return res
+
+array = [1,1,2,2,3,3,4,5,5,6,6,7,7]
+print ( findSingle(array, len(array)))

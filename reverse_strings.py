@@ -9,3 +9,5 @@
 
 
 # *** your code here ***
+s="Let's do a coding challenge"
+print(s[::-1])

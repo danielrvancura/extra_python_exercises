@@ -36,3 +36,27 @@
 
 
 # *** your code here ***
+
+import random
+def guessing_game();
+    number = random.randint(1, 100)
+    guess = input("Guess a number between 1 and 100")
+    guess_num = int(guess)
+    guess_count = 1
+    print(guess_count)
+    def evaluate(guess_num):
+        if guess_num > number:
+            print(f"The number is lower than {guess_num}.")
+            guess_num = int(guess)
+            guess_count += 1
+            evaluate(guess_num)
+        elif guess_num < number:
+            print(f"The number is higher than {guess_num}")
+            guess = input("Guess again")
+            guess_num = int(guesses)
+            guess_count =+1
+            evaluate(guess_num)
+            else
+            print(f"it took you {guess_count} times to get the correct answer")
+        if guess_num = int
+            print ("You guessed correctly")
